@@ -168,13 +168,23 @@ nav {
   width: 2rem;
 }
 
+.main-content {
+  display: flex;
+}
 /*About Us*/
 .about-us {
   margin: 2rem;
 }
+.about-us p {
+  width: 50rem;
+  margin-left: 4rem;
+  background-color: white;
+  padding: 1rem;
+}
 
 /*Get Updates*/
 .updates {
+  margin-left: 0.5rem;
   border-radius: 0.25rem;
   background-color: white;
 }
@@ -194,8 +204,87 @@ button {
 }
 
 .footer {
-  margin: 2rem;
+  background-color: whitesmoke;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+/*footer buckets */
+.footer-buckets {
+  background-color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-bucket1 {
+  padding: 0 2rem 0 2rem;
+}
+.footer-bucket2 {
+  padding: 0 2rem 0 2rem;
+}
+.footer-bucket3 {
+  padding: 0 2rem 0 2rem;
+}
+.footer-bucket4 {
+  padding: 0 2rem 0 2rem;
+}
+.footer-bucket5 {
+  padding: 0 2rem 0 2rem;
+}
+
+.footer-bucket1 p {
+  font-size: small;
+  margin: 0 0 2px;
+}
+.footer-bucket2 p {
+  font-size: small;
+  margin: 0 0 2px;
+}
+.footer-bucket3 p {
+  font-size: small;
+  margin: 0 0 2px;
+}
+.footer-bucket4 p {
+  font-size: small;
+  margin: 0 0 2px;
+}
+.footer-bucket5 p {
+  font-size: small;
+  margin: 0 0 2px;
+}
+
+.footer-bucket1 h4 {
+  color: blueviolet;
+}
+.footer-bucket2 h4 {
+  color: blueviolet;
+}
+.footer-bucket3 h4 {
+  color: blueviolet;
+}
+.footer-bucket4 h4 {
+  color: blueviolet;
+}
+.footer-bucket5 h4 {
+  color: blueviolet;
+}
+
+/* Pet directory*/
+.pet-directory {
+  margin-top: 10rem;
+  display: flex;
+  direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pet-image {
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  /* background-size: contain;
+  background-repeat: no-repeat; */
+  margin: 0.8rem;
 }
